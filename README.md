@@ -89,6 +89,7 @@ Here is the folder structure of this app.
     |-- hooks/
       |--- use-in-view.ts
       |--- use-limited-webgl.ts
+      |--- use-typewriter.ts
     |-- lib/
       |--- contact.ts
     |-- utils/
@@ -102,8 +103,12 @@ Here is the folder structure of this app.
   |- .env.example
   |- .env/.env.local
   |- .gitignore
+  |- image-1.png
+  |- image-2.png
+  |- image.png
   |- index.html
   |- netlify.toml
+  |- package-lock.json
   |- package.json
   |- pnpm-lock.yaml
   |- pnpm-workspace.yaml
@@ -200,6 +205,7 @@ Useful resources and dependencies that are used in 3D Portfolio.
 - [@netlify/vite-plugin](https://www.npmjs.com/package/@netlify/vite-plugin): ^3.0.1
 - [@react-three/drei](https://www.npmjs.com/package/@react-three/drei): ^10.7.8
 - [@react-three/fiber](https://www.npmjs.com/package/@react-three/fiber): ^9.7.0
+- [@rolldown/binding-win32-x64-msvc](https://www.npmjs.com/package/@rolldown/binding-win32-x64-msvc): ^1.2.7
 - [@tailwindcss/vite](https://www.npmjs.com/package/@tailwindcss/vite): ^4.3.3
 - [@types/node](https://www.npmjs.com/package/@types/node): ^26.4.0
 - [@types/react](https://www.npmjs.com/package/@types/react): ^19.2.18
@@ -207,13 +213,14 @@ Useful resources and dependencies that are used in 3D Portfolio.
 - [@types/react-vertical-timeline-component](https://www.npmjs.com/package/@types/react-vertical-timeline-component): ^3.3.6
 - [@vitejs/plugin-react](https://www.npmjs.com/package/@vitejs/plugin-react): ^6.1.1
 - [clsx](https://www.npmjs.com/package/clsx): ^2.1.1
-- [framer-motion](https://www.npmjs.com/package/framer-motion): ^13.1.0
+- [framer-motion](https://www.npmjs.com/package/framer-motion): ^12.43.0
+- [hls.js](https://www.npmjs.com/package/hls.js): 1.5.17
 - [maath](https://www.npmjs.com/package/maath): ^0.10.8
 - [react](https://www.npmjs.com/package/react): ^19.2.8
 - [react-dom](https://www.npmjs.com/package/react-dom): ^19.2.8
 - [react-google-recaptcha-v3](https://www.npmjs.com/package/react-google-recaptcha-v3): ^1.11.0
+- [react-parallax-tilt](https://www.npmjs.com/package/react-parallax-tilt): ^1.7.341
 - [react-router-dom](https://www.npmjs.com/package/react-router-dom): ^7.18.3
-- [react-tilt](https://www.npmjs.com/package/react-tilt): ^1.0.2
 - [react-vertical-timeline-component](https://www.npmjs.com/package/react-vertical-timeline-component): ^4.0.0
 - [resend](https://www.npmjs.com/package/resend): ^6.25.0
 - [sonner](https://www.npmjs.com/package/sonner): ^2.0.8
@@ -221,7 +228,7 @@ Useful resources and dependencies that are used in 3D Portfolio.
 - [tailwindcss](https://www.npmjs.com/package/tailwindcss): ^4.3.3
 - [three](https://www.npmjs.com/package/three): ^0.185.1
 - [three-stdlib](https://www.npmjs.com/package/three-stdlib): ^2.36.1
-- [typescript](https://www.npmjs.com/package/typescript): ^7.0.2
+- [typescript](https://www.npmjs.com/package/typescript): ~5.9.3
 - [vite](https://www.npmjs.com/package/vite): ^8.2.1
 
 <!--- DEPENDENCIES_END --->
